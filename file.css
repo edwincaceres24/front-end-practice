@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+body {  
+    margin: 0px;
+}
+h1      {
+    font-family: Barlow;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: normal;
+    color: #004FB9;
+    line-height: 34px;
+
+}
+strong  {
+    color: hsl(159, 66%, 62%);
+    font-style: bold;
+}
+
+.text   {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+        color: #004FB9;
+    text-align: center;
+}
+span {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color:#FF560A;
+    letter-spacing: 0.02em;
+    text-align: center;
+    line-height: 26px;
+    align-items: center;  
+    text-transform: lowercase;
+
+}
+
+nav .entel-nav  {
+    position: relative;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.email-box  {
+    float: right;
+    width: 237px;
+    height: 67px;
+    background: white;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    text-align: center;
+    box-shadow: -7px 6px 10px rgba(0, 0, 0, 0.1);
+}
+.form-field    {
+    position: relative;
+    width: 320px;
+    height: 56px;
+    border: 1px solid #9E9FA1;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.form-checkbox {
+    margin-bottom: 30px;
+    height: 18px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    /* or 139% */
+    color: #9E9FA1; 
+}
+.container     {
+    position: relative;
+    float: right;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+.banner {
+    background-image: url(images/img_familia_2.png);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: bottom;
+}
+.buttom{
+    position: absolute;
+    width: 170px;
+    height: 50px;
+    background: #FF560A;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    line-height: 20px;
+    border-radius: 50px;
+    border: none;
+}
+/**@media (max-width:425px){
+    .banner {
+        background-image: url(images/img_familia_mob_2.png);
+        height: 750px;
+    }*/
