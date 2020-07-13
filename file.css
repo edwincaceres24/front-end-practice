@@ -1,8 +1,11 @@
+/*All CSS*/
+
 * {
     box-sizing: border-box;
 }
 body {  
     margin: 0px;
+    background-color: #C9DEF8;
 }
 h1      {
     font-family: Barlow;
@@ -47,6 +50,9 @@ nav .entel-nav  {
     margin-right: 10%;
     margin-left: 10%;
 }
+
+/*Login*/
+
 .email-box  {
     float: right;
     width: 237px;
@@ -114,8 +120,38 @@ nav .entel-nav  {
     border-radius: 50px;
     border: none;
 }
-/**@media (max-width:425px){
-    .banner {
-        background-image: url(images/img_familia_mob_2.png);
-        height: 750px;
-    }*/
+/*Error 404 Styles*/
+
+.white-box{
+    float: right;
+    width: 135px;
+    height: 50px;
+    background: white;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    text-align: center;
+    box-shadow: -7px 6px 10px rgba(0, 0, 0, 0.1);
+    display: inline-flex;
+}
+
+.box-icon {
+    margin: 12px;
+    align-items: center; 
+}
+
+.white-block{
+    position: absolute;
+    width: 700px;
+    height: 857.33px;
+}
+
+.footer-font {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    color: #4E5057;
+}
